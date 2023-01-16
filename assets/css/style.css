@@ -1,66 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap");
 
-body{
+body {
   font-family: "Spline Sans", sans-serif;
   color: #777;
   line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   color: #222;
 }
 
-a{
+a {
   color: #222;
   text-decoration: none;
   transition: all 0.5s;
   font-weight: 600;
 }
 
-a:hover{
-  color: #F58d17;
+a:hover {
+  color: #f58d17;
 }
 
-img{
+img {
   width: 100%;
 }
 
-section{
+section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.shadow-on-hover{
+.shadow-on-hover {
   transition: all 0.4s;
 }
 
-.shadow-on-hover:hover{
+.shadow-on-hover:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
 /*btn*/
 
-.btn{
+.btn {
   border-radius: 0;
   padding: 14px 38px;
 }
 
-.btn-brand{
+.btn-brand {
   color: #fff;
   font-weight: 500;
-  border-color: #F58d17;
-  background-color: #F58d17;
+  border-color: #f58d17;
+  background-color: #f58d17;
   border-radius: 8px;
 }
 
-.btn-brand:hover{
+.btn-brand:hover {
   border-color: #d37810;
   background-color: #d37810;
   color: #fff;
 }
 
-.bg-cover{
+.bg-cover {
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -68,16 +73,18 @@ section{
 
 /*SLider*/
 
-.slide-1{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover1.jpg);
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/cover1.jpg);
 }
 
-.slide-2{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover2.jpg);
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/cover2.jpg);
 }
 
 .carousel-control-prev,
-.carousel-control-next{
+.carousel-control-next {
   background-color: rgba(0, 0, 0, 0.6);
   width: 40px;
   height: 70px;
@@ -86,29 +93,28 @@ section{
 
 /*Sobre*/
 
-#about .divider{
+#about .divider {
   width: 60px;
   height: 2px;
   display: block;
-  background-color: #F58d17;
-
+  background-color: #f58d17;
 }
 
 /*intro*/
 
-.intro-text{
+.intro-text {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.intro-text p{
+.intro-text p {
   max-width: 500px;
   margin: 16px auto 0px auto;
 }
 
 /*Menu*/
 
-#menu .nav-pills .nav-link{
+#menu .nav-pills .nav-link {
   background-color: #fff;
   margin-left: 8px;
   margin-right: 8px;
@@ -117,35 +123,90 @@ section{
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
-#menu .nav-pills .nav-link.active{
-  background-color: #F58d17;
+#menu .nav-pills .nav-link.active {
+  background-color: #f58d17;
   color: #fff;
 }
 
-
-.menu-item .stars{
-  color: #F58d17;
+.menu-item .stars {
+  color: #f58d17;
 }
 
 /*Features*/
 
-#features{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover2.jpg);
+#features {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/cover2.jpg);
 }
 
-.feature{
+.feature {
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.feature .feature-icon{
+.feature .feature-icon {
   width: 80px;
   height: 80px;
-  background-color: #F58d17;
+  background-color: #f58d17;
   color: #fff;
   font-size: 28px;
   display: inline-grid;
   align-content: center;
   text-align: center;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 
+/*Team*/
+
+.team-member img {
+  max-width: 140px;
+  box-shadow: -8px -8px 0 #f58d17;
+  border-radius: 100px;
+}
+
+/*Reserva*/
+
+#reservas .form-control {
+  border-radius: 10px;
+}
+
+#reservas .form-control:focus {
+  box-shadow: none;
+  border-color: #f58d17;
+}
+
+#reservas input.form-control {
+  height: 47px;
+}
+
+/*Footer*/
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/cover3.jpg);
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-top{
+  margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a{
+  font-weight: normal;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+footer img {
+  width: 175px;
+}
+
+.footer-bottom{
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
